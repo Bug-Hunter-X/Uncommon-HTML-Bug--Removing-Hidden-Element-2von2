@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>Uncommon HTML Bug</title></head><body> <div id="myDiv">This is some text.</div> <script> let element = document.getElementById('myDiv'); element.style.display = 'none'; //This line causes the bug. element.remove(); //This line is supposed to remove the div </script></body></html>
